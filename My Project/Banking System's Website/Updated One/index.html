@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+  <html>
+     <head>
+        <title>Home | SparkBank</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+     </head>
+     <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">SparkBank</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="table.php">User</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="transactiontable.php">Transaction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="table.php">Information</a>
+              </li>
+          </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+       </nav>
+
+       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/1600x600/?bank" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="bag button">Who Are We?</h5>
+              <p class="text-white bg-dark bag button">A Place To Keep Your Assets Safe and Secure</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1600x600/?bank" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="bag button">What Makes Us 'Unique'?</h5>
+              <p class="text-white bg-dark bag button">Transparency,Trust, and Security</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1600x600/?bank" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="bag button">What Do We Stand For?</h5>
+              <p class="text-white bg-dark bag button">We Stand Amongst The Citizens Of Our Country.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+        <section class="my-5">
+          <div class="py-5">
+            <h3 class="text-center">WHO ARE WE?</h3>
+          </div>
+          <div class="container-fluid">
+              <div class="row">
+                 <div class="col-lg-6 col-md-6 col-12">
+                    <img src = "https://source.unsplash.com/1200x800/?bank" class="img-fluid" aboutimg >
+                 </div>
+                 <div class="col-lg-6 col-md-6 col-12">
+                 <h2 class="display-4">Welcome To The SparkBank</h2>
+                 <p class="py-3">SparkBank is a choice of many. It is one of the trusted banks in our country. Our moto is to help and serve our people in the best and secured way possible.
+                  We are here to make your assets safe and secure.<br> Please go through our website and make yourself at home. For any further queries, kindly drop us an email on support@sparkbank.in. We'll respond back to your query within 48 hours.
+                 </p>
+                 <a href="About.html" class="btn btn-success"> Check More Details.</a>
+                 </div>
+             </div>
+          </div>
+        </section>
+
+
+        <section class="my-2">
+          <div class="py-3">
+            <h2 class="text-center">You Can Generate Your Query Here.</h2>
+        </div>
+
+    
+          <div class="w-50 m-auto">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="user" autocomplete="off" class="
+                form-control">
+              </div>
+              <div class="form-group">
+                <label>Email-id</label>
+                <input type="text" name="email" autocomplete="off" class="
+                form-control">
+              </div>
+
+              <div class="form-group">
+                <label>Mobile</label>
+                <input type="text" name="mobile" autocomplete="off" class="
+                form-control">
+              </div>
+              <div class="form-group">
+                <label>Query?</label>
+                <textarea class="form-control" name="comments">
+
+                </textarea>
+            </div>
+            <input type="submit" class="btn btn-success" value="submit">
+          </form>
+        </div>
+      </section>
+
+        <footer>
+          <p class="p-3 bg-dark text-white text-center">@SparkBank</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+     
+    </body>
+  </html>
+
+
+
+
+
+  
+

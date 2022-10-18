@@ -1,0 +1,41 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+.carousel-inner img{
+    width: 100%;
+    height: 90vh;
+}
+.bag{
+    background-color: #ddd;
+    opacity: 0.8;
+}
+.button {
+    border: none;
+    color: black;
+    padding: 3px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 3px 1px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+  
+.button:hover {
+    background-color: #f1f1f1;
+}
+.aboutimg{
+    width: 100%;
+    height: 250px!important;
+}
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #ca9a57c1;
+    
+    
+    background: -webkit-linear-gradient(to right,  #875408c1, #ca9a57c1);
+    
+    
+    background: linear-gradient(to right, #875408c1, #ca9a57c1)
+    }
+
